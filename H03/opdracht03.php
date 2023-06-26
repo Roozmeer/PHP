@@ -1,0 +1,16 @@
+<style>
+    .center {
+        text-align: center;
+    }
+</style>
+<div class="center">
+    <?php
+
+    for ($i = 0; $i < 9; $i++) {
+        for ($j = 0; $j < $i; $j++) {
+            echo " * ";
+        }
+        echo "<br>";
+    }
+    ?>
+</div>
